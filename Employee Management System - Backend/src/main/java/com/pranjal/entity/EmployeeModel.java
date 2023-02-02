@@ -16,7 +16,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 public class EmployeeModel {
 
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     Integer employeeId;
     @NotNull
